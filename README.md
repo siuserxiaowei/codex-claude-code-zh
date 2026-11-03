@@ -48,8 +48,6 @@
 
 本仓库的部分内容整理自 Nano Banana 教程站的公开文章，那边有截图和更新记录：
 
-本仓库的部分内容整理自 Nano Banana 教程站的公开文章，那边有截图和更新记录：
-
 - [Codex CLI 安装与登录教程](https://nano-banana.lol/tutorials/codex-cli-install-login)
 - [Codex 401 / 429 / 超时分流对照表](https://nano-banana.lol/how-to/codex-401-429-timeout-triage)
 - [Claude Code 国内安装教程](https://nano-banana.lol/tutorials/claude-code-install-china)
