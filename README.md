@@ -42,6 +42,12 @@
 
 ## 延伸阅读
 
+主题配套（Gemini CLI / CC Switch，独立仓库）：
+
+- [gemini-cli-cc-switch-zh](https://github.com/siuserxiaowei/gemini-cli-cc-switch-zh)
+
+本仓库的部分内容整理自 Nano Banana 教程站的公开文章，那边有截图和更新记录：
+
 本仓库的部分内容整理自 Nano Banana 教程站的公开文章，那边有截图和更新记录：
 
 - [Codex CLI 安装与登录教程](https://nano-banana.lol/tutorials/codex-cli-install-login)
