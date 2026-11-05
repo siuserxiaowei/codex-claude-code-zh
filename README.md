@@ -2,7 +2,7 @@
 
 面向中文开发者的一份**可直接照做**的笔记：OpenAI Codex CLI 和 Anthropic Claude Code 怎么装、怎么登录，以及最常见的 401 / 403 / 429 / token 刷新失败 / 超时断流该按什么顺序排查。
 
-> 非官方文档，与 OpenAI、Anthropic 没有隶属关系。命令和字段会随客户端版本变化，**以你本机 `--help` 输出和官方文档为准**。最后整理：2026-11-01。
+> 非官方文档，与 OpenAI、Anthropic 没有隶属关系。命令和字段会随客户端版本变化，**以你本机 `--help` 输出和官方文档为准**。最后整理：2026-11-05（Asia/Shanghai）。
 
 ## 目录
 
@@ -39,6 +39,24 @@
 - 不要把 `~/.codex/auth.json`、API Key、Session、Cookie、验证码发给任何人，包括“客服”和群友。
 - 不要为了消除报错关闭 TLS 证书校验，或用 `sudo` 反复覆盖全局 npm 安装。
 - 安装脚本只从官方域名下载（`chatgpt.com/codex/install.sh`、`claude.ai/install.sh`）。
+
+
+## 报错索引（站点 + 本仓）
+
+站内总枢纽（截图与更新记录）：[nano-banana.lol/errors](https://nano-banana.lol/errors)
+
+| 报错 / 现象 | 本仓文档 | 站点专页 |
+| --- | --- | --- |
+| 401 / 403 / Missing bearer | [errors-401-403](docs/errors-401-403.md) | [/how-to/codex-401-429-timeout-triage](https://nano-banana.lol/how-to/codex-401-429-timeout-triage) |
+| 429 / usage limit | [errors-429-usage](docs/errors-429-usage.md) | 同上分流表 |
+| access token could not be refreshed | [token-refresh](docs/token-refresh-login-loop.md) | [/how-to/codex-access-token-refresh-failed](https://nano-banana.lol/how-to/codex-access-token-refresh-failed) |
+| stream disconnected / timeout | [network-timeout-proxy](docs/network-timeout-proxy.md) | [/how-to/codex-stream-disconnected](https://nano-banana.lol/how-to/codex-stream-disconnected) |
+| device auth / 设备授权 | 见登录文档 | [/how-to/codex-device-auth](https://nano-banana.lol/how-to/codex-device-auth) |
+| selected model at capacity | — | [/how-to/codex-selected-model-at-capacity](https://nano-banana.lol/how-to/codex-selected-model-at-capacity) |
+| HTTPS 代理（国内） | [network-timeout-proxy](docs/network-timeout-proxy.md) | [/how-to/codex-https-proxy-china](https://nano-banana.lol/how-to/codex-https-proxy-china) |
+| SMS 验证手机号类型 | — | [/how-to/codex-sms-verification-phone-types](https://nano-banana.lol/how-to/codex-sms-verification-phone-types) |
+
+本仓库只链 nano-banana.lol，不链其他商业站。
 
 ## 延伸阅读
 
